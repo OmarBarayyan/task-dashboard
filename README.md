@@ -51,7 +51,7 @@ A task management application that allows users to create, organize, and filter 
 ### Available Scripts
 
 - `npm start` - Start the development server
-- `npm start:hydrated` - Start the development server with data hydration enabled
+- `npm run start:hydrated` - Start the development server with data hydration enabled
 - `npm run build` - Build for production
 - `npm run build:hydrated` - Build for production with data hydration enabled
 - `npm run build:clean` - Build for production with data hydration explicitly disabled

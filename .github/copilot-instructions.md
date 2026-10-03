@@ -23,7 +23,7 @@ This is a React-based Todo application that allows users to create, manage, and 
 
 ### CSS/Styling Standards
 - Use Tailwind CSS utility classes for styling
-- Follow the established color scheme defined in tailwind.config.js
+- Follow the established Tailwind theme defined in `src/index.css`
 - Use consistent spacing and sizing patterns
 - Ensure responsive design works across different screen sizes
 
@@ -44,8 +44,8 @@ This is a React-based Todo application that allows users to create, manage, and 
   - `/common`: Common/shared components and utilities
 - `/public`: Static assets and HTML template
 - Configuration files:
-  - `vite.config.js`: Vite configuration
-  - `tailwind.config.js`: Tailwind CSS configuration
+  - `vite.config.mjs`: Vite and Tailwind CSS plugin configuration
+  - `src/index.css`: Tailwind CSS import and theme
   - `vitest.config.js`: Vitest test runner configuration
 
 ## Key Guidelines
